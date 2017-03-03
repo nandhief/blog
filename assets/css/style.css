@@ -2,6 +2,9 @@
  * Custom css style
  */
 
+body {
+	background-color: #e5e7e9;
+}
 header {
 	padding-left: 10px;
 	padding-bottom: 5px;
@@ -69,9 +72,6 @@ header {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-/*.panel {
-	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
-}*/
 .navbar-inverse {
 	background-color: #2e86c1;
 }
@@ -86,4 +86,10 @@ a {
 }
 a:hover, a:focus {
 	color: #2874a6;
+}
+.page {
+	text-align: justify;
+}
+.header {
+	background-color: #fff;
 }
